@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="Image-slider.css">
+    <script src="https://kit.fontawesome.com/e139f326f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-start">
+                <img src="images\logo.jpg">
+                <div class="navbar">
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#">Catagories</a></div>
+                    <div><a href="#">Brands</a></div>
+                    <div><a href="#">Vendors</a></div>
+                    <div><a href="#">Sell</a></div>
+                </div>
+            </div>
+            <div class="header-end">
+                <div class="cart">
+                    <a href="#"><i class="fas fa-user fa-2x"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                    <a href="#"><span class="login-btn login-click">Login</span></a>
+                    </div>
+                    <span class="menu-btn">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </span>
+            </div>
+        </div>
+    </header>
+    <div class="login-wrapper">
+    <div class="login">
+    <form name="login" action="" onsubmit="return validateform()">
+    <input id="user" type="text" placeholder="  UserName"><br>
+    <input id="pass" type="password" placeholder="  Password"><br>
+    <input type="submit" value="LOGIN" id="submit-btn">
+    <p id="register">Not Registered?&nbsp;<a href="index.html">Create an account</a></p>
+    </div>
+    </div>
+        
+        
+    <div class="menu-wrapper">
+        <div class="menu">
+           <ul>
+           <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;</a><hr width="90%">
+           <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Catagories&nbsp;</a><hr width="90%">
+           <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Brands&nbsp;</a><hr width="90%">
+           <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Vendors&nbsp;</a><hr width="90%">
+           <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Sell&nbsp;</a><hr width="90%"><br>
+            <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Profile&nbsp;</a><hr width="90%">
+            <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Cart&nbsp;</a><hr width="90%">
+            <li class="login-click">&nbsp;&nbsp;&nbsp;&nbsp;LogIn/SignUp&nbsp;<hr width="90%">
+           </ul>
+        </div>
+        </div>
+        
+    <div class="promotion">
+        <div class="promotion-container">
+            <h4><marquee>Promotion/Discount Goes Here</marquee></h4>
+        </div>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images\shirt.jpg">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images\TShirt.jpg">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images\tshirt2.jpg">
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="images\shirt2.jpg">
+            <div class="text">Caption Four</div>
+          </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        <div class="preview">
+            <img src="images\shirt.jpg" onclick="currentSlide(1)" class="preview-image">
+            <img src="images\TShirt.jpg" onclick="currentSlide(2)" class="preview-image">
+            <img src="images\tshirt2.jpg" onclick="currentSlide(3)" class="preview-image">
+            <img src="images\shirt2.jpg" onclick="currentSlide(4)" class="preview-image">
+            
+        </div>        
+    <hr>  
+    <h2>Trending Items</h2>
+    <div class="trending-items">
+        <img src="images\TShirt.jpg">
+        <img src="images\TShirt.jpg">
+        <img src="images\TShirt.jpg">
+    </div>
+    <hr>
+    <h2>Deal of the day</h2>
+    <div class="deal-of-the-day">
+        <img src="images\TShirt.jpg">
+        <img src="images\offer.jpg">
+        <img src="images\TShirt.jpg">
+        <img src="images\offer.jpg">
+    </div>
+    <hr>
+    <h2>Featured Catagories</h2>
+    <div class="featured">
+        <img src="images\insert.jpg">
+        <img src="images\insert.jpg">
+        <img src="images\insert.jpg">
+        <img src="images\insert.jpg">
+        <img src="images\insert.jpg">
+        <img src="images\insert.jpg">
+    </div>
+    <hr>
+    <h2>Featured Brands</h2>
+    <div class="brands">
+        <img src="images\logo.jpg">
+        <img src="images\logo.jpg">
+        <img src="images\logo.jpg">
+    </div>
+    <hr>
+    <h2>Recently Added</h2>
+    <div class="recently-added">
+        <img src="images\TShirt.jpg">
+        <img src="images\TShirt.jpg">
+        <img src="images\TShirt.jpg">
+    </div>
+    <hr>
+    <h2>Interested in Selling?</h2>
+    <p class="selling">
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Repellat ducimus rem 
+        cupiditate! Tenetur optio enim esse itaque,
+        sint reprehenderit aliquam quod libero earum,
+        in beatae quasi sed similique labore et?
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Repellat ducimus rem 
+        cupiditate! Tenetur optio enim esse itaque,
+        sint reprehenderit aliquam quod libero earum,
+        in beatae quasi sed similique labore et?<br>
+        <span class="btn sell"><a href="#">START SELLING</a></span>
+    </p>
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                Stay Connected<br>
+                <a href="#"><i class="fab fa-instagram"></i></a>&nbsp;
+                <a href="#"><i class="fab fa-facebook-square"></i></a>&nbsp;
+                <a href="#"><i class="fab fa-twitter"></i></a>&nbsp;
+                <a href="#"><i class="fab fa-linkedin"></i></a>&nbsp;
+                <a href="#"><i class="fab fa-youtube"></i></a>&nbsp;
+            </div>
+            <div class="footer-menu">
+                    <div><a href="#">About Us</a></div>
+                    <div><a href="#">Terms of Service</a></div>
+                    <div><a href="#">Copyright</a></div>
+                    <div><a href="#">Support</a></div>
+                    <div><a href="#">Help</a></div>
+            </div>
+        </div>
+    </footer>
+    <h3>@ 2021, Copyrights Make It Good All Rights Reserved</h3>
+<script src="javascipt.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(function() {
+    $('.login-click').click(function() {
+    $('.login-wrapper').fadeIn(1000);
+    $('.menu-wrapper').hide();
+    });
+
+    });
+    
+        function validateform() {
+        var userval=document.forms.login.user.value;
+        var passval=document.forms.login.pass.value;
+        if(userval==""){
+            alert("Username cannot be empty");
+            return false;
+            }
+        if(passval==""){
+            alert("Password cannot be empty");
+            return false;
+            }
+        
+        }
+        
+    </script>
+    <script>
+        $(function() {
+        $('.menu-btn').click(function() {
+        $('.menu-wrapper').fadeToggle();
+        });
+        $('#submit-btn').click(function() {
+            $('.menu-wrapper').hide();
+        })
+        });
+    </script>
+</body>
+</html>
